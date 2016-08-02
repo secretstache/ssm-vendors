@@ -66,6 +66,9 @@ if ( is_admin() ) {
 require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
 
 $MyUpdateChecker = new PluginUpdateChecker_2_0 (
-
+    'https://kernl.us/api/v1/updates/57a0e3ec0682367522230bf8/',
+    __FILE__,
+    'ssm-vendors',
+    1
 );
 // $MyUpdateChecker->purchaseCode = "somePurchaseCode";  <---- Optional!

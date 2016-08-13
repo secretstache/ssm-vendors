@@ -64,7 +64,8 @@ class SSM_Vendors_Registrations {
 			'supports'        => $supports,
 			'public'          => true,
 			'capability_type' => 'post',
-			'rewrite'         => array( 'slug' => 'vendor', ), // Permalinks format
+			'rewrite'         => array( 'slug' => 'vendor', ),
+			'has_archive'			=> 'vendors',
 			'menu_position'   => 30,
 			'menu_icon'       => 'dashicons-admin-page',
 		);

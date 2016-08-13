@@ -1,4 +1,5 @@
 {
   "0.1.0" : "Initial Beta Release",
-  "0.1.1" : "Adds kernl continuous integration
+  "0.1.1" : "Adds kernl continuous integration",
+  "0.1.2" : "Adds support for vendor archives"
 }

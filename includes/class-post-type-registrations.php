@@ -68,7 +68,7 @@ class SSM_Vendors_Registrations {
 			'rewrite'         => array( 'slug' => 'vendor', ),
 			'has_archive'			=> 'vendors',
 			'menu_position'   => 30,
-			'menu_icon'       => 'dashicons-admin-page',
+			'menu_icon'       => 'dashicons-groups',
 		);
 
 		$args = apply_filters( 'ssm_vendors_args', $args );
